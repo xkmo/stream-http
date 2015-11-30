@@ -25,7 +25,13 @@
   "dependencies": {
     "builtin-status-codes": "^1.0.0",
     "inherits": "^2.0.1",
-    "xtend": "^4.0.0"
+    "xtend": "^4.0.0",
+    "url": "0.11.0",
+    "events": "1.1.0",
+    "stream-browserify": "xkmo/stream-browserify"
+  },
+  "browser": {
+    "stream": "stream-browserify"
   },
   "devDependencies": {
     "basic-auth": "^1.0.3",
